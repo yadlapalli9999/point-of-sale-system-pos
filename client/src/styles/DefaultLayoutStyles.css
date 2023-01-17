@@ -1,0 +1,55 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 50px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-layout-sider{
+    border-radius: 10px !important;
+  }
+  .ant-layout{
+    height: 99vh !important;
+  }
+  .ant-menu-item a {
+    text-decoration: none !important;
+  }
+  .anticon svg {
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .ant-card{
+    text-align: center;
+    margin: 10px;
+  }
+  .ant-layout-header{
+    line-height: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cart-item{
+    padding-left: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  .cart-item p{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
